@@ -1,0 +1,67 @@
+﻿@model Common.DTOs.UsuarioDTO
+
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1>Direcciones</h1>
+
+<p>
+    <a asp-action="CrearDireccion" asp-route-id="@Model.Id" class="btn btn-primary"> <i class="fa-solid fa-circle-plus"></i> Agregar</a>
+    <a asp-action="Index" class="btn btn-secondary">Regresar</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                Dirección Específica
+            </th>
+            <th>
+                Ciudad
+            </th>
+            <th>
+                Código Postal
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody id="addressTableBody">
+        @foreach (var item in Model.Direcciones!)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DireccionEspecifica)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ciudad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodigoPostal)
+                </td>
+                <td>
+                    <a asp-action="EditarDireccion" asp-route-id="@item.Id" asp-route-usuarioId="@Model.Id" class="btn btn-warning btn-sm" title="Editar">
+                        <i class="fa-solid fa-pencil"></i>
+                    </a>
+                    <button class="btn btn-danger btn-sm delete-button" title="EliminarDireccion"
+                            data-id="@item.Id" data-usuario-id="@Model.Id" type="button">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastr/build/toastr.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/toastr/toastr.min.js"></script>
+    <script src="~/lib/microsoft/signalr/dist/browser/signalr.min.js"></script>
+    <script src="~/js/details-address.js"></script>
+}

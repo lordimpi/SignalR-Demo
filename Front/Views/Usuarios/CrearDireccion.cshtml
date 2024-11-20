@@ -1,0 +1,40 @@
+﻿@model Common.DTOs.DireccionCreacionDTO
+
+@{
+    ViewData["Title"] = "CrearDireccion";
+}
+
+<h1>Formulario Dirección</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="CrearDireccion">
+            <input type="hidden" asp-for="UsuarioId" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mt-2">
+                <label asp-for="DireccionEspecifica" class="control-label"></label>
+                <input asp-for="DireccionEspecifica" class="form-control" />
+                <span asp-validation-for="DireccionEspecifica" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="Ciudad" class="control-label"></label>
+                <input asp-for="Ciudad" class="form-control" />
+                <span asp-validation-for="Ciudad" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <label asp-for="CodigoPostal" class="control-label"></label>
+                <input asp-for="CodigoPostal" class="form-control" />
+                <span asp-validation-for="CodigoPostal" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-4">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+                <a asp-action="RegresarDetalles" asp-route-id="@Model.UsuarioId" class="btn btn-secondary">Regresar</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

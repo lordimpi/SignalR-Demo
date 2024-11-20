@@ -1,0 +1,237 @@
+[
+  {
+    "ContainingType": "WebAPI.Controllers.DireccionesController",
+    "Method": "UpdateDireccionAsync",
+    "RelativePath": "api/direcciones/actualizarDireccion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "direccionCreacionDTO",
+        "Type": "Common.DTOs.DireccionCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ActualizarDireccion"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.DireccionesController",
+    "Method": "CreateDireccionAsync",
+    "RelativePath": "api/direcciones/crearDireccion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "direccionCreacionDTO",
+        "Type": "Common.DTOs.DireccionCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CrearDireccion"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.DireccionesController",
+    "Method": "DeleteDireccionAsync",
+    "RelativePath": "api/direcciones/eliminarDireccion/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "EliminarDireccion"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.DireccionesController",
+    "Method": "GetDireccionByIdAsync",
+    "RelativePath": "api/direcciones/obtenerDireccion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.DTOs.DireccionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerDireccion"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.DireccionesController",
+    "Method": "GetAllDireccionesAsync",
+    "RelativePath": "api/direcciones/obtenerDirecciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.DTOs.DireccionDTO, Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerDirecciones"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.DireccionesController",
+    "Method": "GetDireccionesByUserIdAsync",
+    "RelativePath": "api/direcciones/obtenerDireccionesPorUsuario/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.DTOs.DireccionDTO, Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerDireccionesPorUsuario"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.UsuariosController",
+    "Method": "UpdateUsuarioAsync",
+    "RelativePath": "api/usuarios/actualizarUsuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioCreacionDTO",
+        "Type": "Common.DTOs.UsuarioCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "ActualizarUsuario"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.UsuariosController",
+    "Method": "CreateUsuarioAsync",
+    "RelativePath": "api/usuarios/crearUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioCreacionDTO",
+        "Type": "Common.DTOs.UsuarioCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "CrearUsuario"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.UsuariosController",
+    "Method": "DeleteUsuarioAsync",
+    "RelativePath": "api/usuarios/eliminarUsuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "EliminarUsuario"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.UsuariosController",
+    "Method": "GetUsuarioByIdAsync",
+    "RelativePath": "api/usuarios/obtenerUsuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Common.DTOs.UsuarioDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerUsuario"
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.UsuariosController",
+    "Method": "GetAllUsuariosAsync",
+    "RelativePath": "api/usuarios/obtenerUsuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Common.DTOs.UsuarioDTO, Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ObtenerUsuarios"
+  }
+]

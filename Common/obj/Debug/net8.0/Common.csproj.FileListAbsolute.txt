@@ -1,0 +1,24 @@
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\bin\Debug\net8.0\Common.dll
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\obj\Debug\net8.0\Common.dll
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\obj\Debug\net8.0\ref\Common.dll
+C:\Users\snt-2\Desktop\PRUEBA\PruebaTecnica\Common\obj\Debug\net8.0\Common.csproj.AssemblyReference.cache
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\bin\Debug\net8.0\Common.deps.json
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\bin\Debug\net8.0\Common.dll
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\bin\Debug\net8.0\Common.pdb
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\obj\Debug\net8.0\Common.csproj.AssemblyReference.cache
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\obj\Debug\net8.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\obj\Debug\net8.0\Common.AssemblyInfoInputs.cache
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\obj\Debug\net8.0\Common.AssemblyInfo.cs
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\obj\Debug\net8.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\obj\Debug\net8.0\Common.dll
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\obj\Debug\net8.0\refint\Common.dll
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\obj\Debug\net8.0\Common.pdb
+C:\Users\snt-2\Desktop\SANTIAGO ACUÑA OBANDO\PruebaTecnica\Common\obj\Debug\net8.0\ref\Common.dll
